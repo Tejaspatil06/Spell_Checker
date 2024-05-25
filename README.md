@@ -22,3 +22,16 @@ This program implements a spell checker that takes a string (a sentence or parag
 
 9. **Spell Correction Output**: The program returns the corrected word to the user. If no correction is found, the original word is returned.
 
+## Requirements
+
+- C++ compiler (e.g., `g++`)
+- Standard C++ libraries
+- Two input files: `dict.txt` and `freq.txt`
+
+## Input Files
+
+1. `dict.txt`: Contains a list of words, one per line.
+2. `freq.txt`: Contains the frequency of each corresponding word in `dict.txt`, one per line.
+
+The lines in `dict.txt` and `freq.txt` should correspond to each other, i.e., the first line of `dict.txt` corresponds to the first line of `freq.txt`, and so on.
+
